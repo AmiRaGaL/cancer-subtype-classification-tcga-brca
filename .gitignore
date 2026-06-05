@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.pem
+*.key
+.streamlit/secrets.toml
+
+# Large/local data
+data/raw/
+data/external/
+*.zip
+*.tar
+*.gz
+
+# Generated cache
+.cache/
+
+# Optional large model formats
+*.pt
+*.pth
+*.h5
+*.onnx
