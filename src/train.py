@@ -29,6 +29,7 @@ from src.preprocessing import (  # noqa: E402
 
 
 RANDOM_SEED = 42
+DEMO_N_GENES = 12
 MODEL_PATH = Path("models") / "best_model.joblib"
 
 
@@ -51,7 +52,7 @@ def train_demo() -> dict[str, object]:
 
     expression_df, labels_df = generate_synthetic_demo_dataset(
         n_samples=80,
-        n_genes=40,
+        n_genes=DEMO_N_GENES,
         random_state=RANDOM_SEED,
     )
     X, y = align_expression_and_labels(expression_df, labels_df)

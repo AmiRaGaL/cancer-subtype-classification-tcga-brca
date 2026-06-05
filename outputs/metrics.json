@@ -3,15 +3,15 @@
   "macro_f1": 0.9494949494949495,
   "classification_report": {
     "Luminal A": {
-      "precision": 0.8333333333333334,
-      "recall": 1.0,
-      "f1-score": 0.9090909090909091,
-      "support": 5.0
-    },
-    "Luminal B": {
       "precision": 1.0,
       "recall": 1.0,
       "f1-score": 1.0,
+      "support": 5.0
+    },
+    "Luminal B": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
       "support": 5.0
     },
     "HER2-enriched": {
